@@ -1,0 +1,9 @@
+{
+  "File" : "Documento.md",
+  "Parts" : [
+    "Partes/Capitulo1.md",
+    "Partes/Antecedentes.md",
+    "Partes/FormulacionYJustificacion.md",
+    "Partes/FormulacionDeObjetivos.md"
+  ]
+}

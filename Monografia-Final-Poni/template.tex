@@ -1,0 +1,251 @@
+\documentclass[letter,12pt]{report}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+%	Formato
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{newfloat}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{tabulary}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{lscape}
+\usepackage{listings}
+\usepackage{chngcntr} % Paquete para cambiar la numeración de página
+% para el example box
+\usepackage[most]{tcolorbox}
+\usepackage{pdfpages} %para incluir pdf
+
+\usetikzlibrary{calc}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+%	Segun APA, deberia haber ese inicio en el parrafo
+% \setlength{\parindent}{0pt}
+
+%	Adapta la linea sin el guion
+% \tolerance=1
+% \emergencystretch=\maxdimen
+% \hyphenpenalty=10000
+% \hbadness=10000
+
+%	Nuevos Comandos
+\newcommand{\tightlist}{}
+\newcommand{\monografia}{$monografia$}
+\newcommand{\autor}{$autor$}
+\newcommand{\subtitle}{$subtitle$}
+\newcommand{\chapuppercase}[1]{\MakeUppercase{#1}}
+
+%	Definiciones de tablas
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\usepackage{titletoc} % Paquete para modificar el ToC
+\titlecontents*{chapter}% <section-type>
+  [0pt]% <left>
+  {}% <above-code>
+  {\bfseries\chapuppercase{\chaptername\ \thecontentslabel}\quad}% <numbered-entry-format>
+  {}% <numberless-entry-format>
+  {\bfseries\hfill\contentspage}% <filler-page-format>
+
+% Definición del comando \mybox para crear cuadros de texto personalizados
+\newcommand{\mybox}[4]{%
+    \begin{tcolorbox}[%
+        enhanced,        % Permite opciones avanzadas de tcolorbox
+        colback=gray!10,     % Color de fondo del cuadro
+        colframe=black,    % Color del borde del cuadro
+        arc=1.5mm,        % Redondeo de esquinas
+        title={\bfseries\textcolor{black}{#1}},     % Título del cuadro
+        fonttitle=\bfseries, % Estilo del título del cuadro
+        top=0.5in,  % espaciado entre el titulo y el cuerpo
+        attach boxed title to top left={xshift=1.5em,yshift=-\tcboxedtitleheight/2+2pt}, % Posición del título con ajuste de espaciado
+        boxed title style={colback=gray!40, colframe=black, size=small} % Estilo del título del cuadro
+        ]
+    #4 % Contenido del cuadro
+    \end{tcolorbox}%
+}
+
+%	Titulos
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{6}
+
+%	Fondo
+\fancypagestyle{plain}{
+}
+\definecolor{titulo}{HTML}{1f4e79}
+\definecolor{navy}{HTML}{0a3257}
+\definecolor{azulmargen}{HTML}{1f4f78}
+\definecolor{codeblue}{HTML}{3500FA}
+\definecolor{codegreen}{HTML}{008116}
+\definecolor{codelightblue}{HTML}{1a7e97}
+\definecolor{codered}{HTML}{a81a1c}
+\definecolor{codebrown}{HTML}{7a5f2c}
+\definecolor{codelightgreen}{HTML}{00865a}
+\definecolor{codeback}{rgb}{0.95,0.95,0.92}
+
+\newfontfamily{\codefont}[]{JetBrains Mono}
+\title{$title$}
+
+\lstdefinestyle{csharpStyle}{
+    language=[Sharp]C,   
+    backgroundcolor=\color{codeback}, 
+    extendedchars=true,
+    basicstyle=\codefont\footnotesize,
+    showstringspaces=false,
+    showspaces=false,
+    numbers=left,
+    numberstyle=\footnotesize,
+    numbersep=9pt,
+    tabsize=2,
+    breaklines=true,
+    showtabs=false,
+    captionpos=b,
+    keywordstyle=\color{codeblue}\bfseries,
+    ndkeywordstyle=\color{codelightblue}\bfseries,
+    identifierstyle=\color{codegreen},
+    numberstyle=\color{codelightgreen},
+    commentstyle=\color{codebrown}\ttfamily,
+    stringstyle=\color{codered}\ttfamily
+}
+
+\lstset{style=csharpStyle}
+
+%	Colores
+
+\definecolor{sp1}{HTML}{D9E1F2}
+\definecolor{sp2}{HTML}{d0c3b4}
+\definecolor{sp3}{HTML}{f1f2f2}
+
+%	Bibliografia
+\usepackage{csquotes}
+\usepackage[spanish,es-noshorthands]{babel} 
+\usepackage[style=apa, sortcites=true, backend=biber]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\DeclareFloatingEnvironment[fileext=loc,listname={Índice de Códigos},name=Código,]{code}
+\captionsetup[code]{name={Código}}
+
+% Espacio entre lineas
+\linespread{1.5}
+
+\begin{document}
+
+%Titulos
+\titleformat{\chapter}[block]{\normalfont\large\bfseries}{Capítulo \Roman{chapter} }{0em}{\newline}
+\titlespacing*{\chapter}{0pt}{-1em}{1em}
+\titleformat*{\section}{\bfseries}
+\titleformat*{\subsection}{\bfseries}
+\titleformat*{\subsubsection}{\bfseries}
+\titleformat{\paragraph}[block]{\normalfont\normalsize\bfseries}{\theparagraph}{10pt}{}
+\titleformat{\subparagraph}[block]{\normalfont\normalsize\bfseries}{\thesubparagraph}{10pt}{}
+
+%Encabezado de Pagina
+\makeatletter
+\pagestyle{fancy} %Esta línea establece que se va a utilizar el estilo de encabezado y pie de página definido por fancyhdr.
+\fancyhf{} % Esta línea limpia cualquier configuración previa de encabezados y pies de página.
+\renewcommand{\headrulewidth}{2pt}% Esta línea define el grosor de la línea que separa el encabezado del cuerpo del texto.
+\fancyhead[C]{\leftmark} %Centrar el titulo del encabezado
+\fancyfoot[R]{\thepage} %Centrar numeros de pagina en la parte inferior de la hoja
+
+% Definición de encabezado y pie de página para el estilo fancy
+\fancypagestyle{plain}{
+    \fancyhf{} % Limpiar los encabezados y pies de página
+    \renewcommand{\headrulewidth}{0pt} % Elimina la línea horizontal en el encabezado
+    \fancyfoot[R]{\thepage} % Números de página en la parte inferior derecha
+}
+
+% Después de la carátula, cambiar la numeración de página a números romanos
+\let\oldpagenumbering\pagenumbering
+\renewcommand{\pagenumbering}[1]{%
+  \oldpagenumbering{#1}%
+  \ifthenelse{\equal{#1}{roman}}{\setcounter{page}{1}}{}%
+}
+
+\input{Caratula.tex}
+\pagenumbering{roman} % Numeración romana para las páginas preliminares
+\begingroup
+\pagestyle{plain}
+\input{Agradecimientos.tex}
+\clearpage
+\input{Resumen.tex}
+\clearpage
+\pagenumbering{roman} 
+\setcounter{page}{3} % Establece el número de página a 2
+\tableofcontents
+\listoftables
+\listoffigures
+\endgroup
+%\newpage
+%\listofcode
+
+\justify
+
+\makeatletter
+% Nuevo comando para la descripción del capítulo
+\newcommand{\setchapterdescription}[1]{%
+  \gdef\@chapterdescription{#1}%
+}
+
+% Redefinición del encabezado del capítulo para incluir la descripción
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+
+        \newpage
+
+        \begin{singlespace}
+        \thispagestyle{empty}
+        \vfill
+        \vfill
+        \begin{center}      
+            \textbf{\Large CAPÍTULO \arabic{chapter}}\\[1em] % Número de capítulo en árabe
+            \begin{spacing}{1.5} % Establece el interlineado a 1.5
+              \textbf{\Large #1}\\[1em] % Título del capítulo            
+              \parbox{0.8\textwidth}{\centering \@chapterdescription} % Descripción del capítulo
+            \end{spacing}
+          \end{center}   
+        \vfill
+        \vfill
+      \end{singlespace}
+
+      \newpage
+      \pagestyle{fancy}
+      \fi
+    \fi
+  }}
+\makeatother
+\clearpage
+\pagenumbering{arabic} % Cambiar a numeración arábiga
+$body$
+
+\newpage
+\nocite{*}
+\pagestyle{plain}
+\addcontentsline{toc}{section}{BIBLIOGRAFÍA}
+\printbibliography[title=BIBLIOGRAFÍA]
+\cleardoublepage
+
+\pagestyle{plain}
+\section*{ANEXOS.}
+\addcontentsline{toc}{section}{ANEXOS.}
+\subsection*{ANEXO A. Hoja de Vida}
+\begin{center}
+\includegraphics[width=14.5cm]{Recursos/CV.pdf}
+\end{center}
+\clearpage
+
+\end{document}
