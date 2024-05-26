@@ -178,14 +178,14 @@
 \pagenumbering{roman} % Numeración romana para las páginas preliminares
 \begingroup
 \pagestyle{plain}
-\input{Agradecimientos.tex}
-\clearpage
-\input{Resumen.tex}
-\clearpage
+%\input{Dedicatoria.tex}
+%\clearpage
+%\input{Resumen.tex}
+%\clearpage
 \pagenumbering{roman} 
-\setcounter{page}{3} % Establece el número de página a 2
+\setcounter{page}{3} % Establece el número de página a 3
 \tableofcontents
-\listoftables
+%\listoftables
 \listoffigures
 \endgroup
 %\newpage
@@ -201,26 +201,28 @@
 
 % Redefinición del encabezado del capítulo para incluir la descripción
 \def\@makechapterhead#1{%
-  {\parindent \z@ \raggedleft \normalfont
+  {\parindent \z@ \centering \normalfont % Alineación centrada
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
 
         \newpage
 
         \begin{singlespace}
-        \thispagestyle{empty}
-        \vfill
-        \vfill
-        \begin{center}      
-            \textbf{\Large CAPÍTULO \arabic{chapter}}\\[1em] % Número de capítulo en árabe
-            \begin{spacing}{1.5} % Establece el interlineado a 1.5
-              \textbf{\Large #1}\\[1em] % Título del capítulo            
-              \parbox{0.8\textwidth}{\centering \@chapterdescription} % Descripción del capítulo
-            \end{spacing}
-          \end{center}   
-        \vfill
-        \vfill
-      \end{singlespace}
+          \thispagestyle{empty}
+          \tikz[remember picture,overlay] \node[opacity=0.05,inner sep=0pt] at (-2,-17){\includegraphics[scale=0.5]{Escudo_FICCT.png}};
+          \vfill
+          
+          \begin{center}
+              \textbf{\Large CAPÍTULO \arabic{chapter}}\\[1em] % Número de capítulo en árabe
+              \vfill
+              \begin{spacing}{1.5} % Establece el interlineado a 1.5
+                \textbf{\Large #1}\\[1em] % Título del capítulo            
+                \parbox{0.8\textwidth}{\centering \@chapterdescription} % Descripción del capítulo
+              \end{spacing}
+            \end{center}   
+          \vfill
+          \vfill
+        \end{singlespace}
 
       \newpage
       \pagestyle{fancy}
