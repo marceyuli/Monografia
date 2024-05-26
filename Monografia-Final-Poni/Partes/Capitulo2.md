@@ -1,3 +1,3 @@
-\setchapterdescription{Se exploran los conceptos fundamentales del tema, abarcando las pruebas de software, el ciclo de vida de las pruebas de software (STLC), la inteligencia artificial generativa (GenAI) y modelos de lenguaje clave desarrollados por OpenAI y Meta AI, que han potenciado la relevancia de esta tecnología.}
+\setchapterdescription{El capítulo de Marco Teórico proporciona una visión integral de los fundamentos y principios esenciales de DevOps, así como de los componentes clave de una cultura DevOps efectiva. Se explora la definición y concepto de DevOps, así como los principios básicos que subyacen a esta metodología, incluidas las 'Tres Vías' fundamentales.}
 
 # MARCO TEÓRICO.

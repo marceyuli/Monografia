@@ -1,9 +1,10 @@
 {
-  "File" : "Documento.md",
-  "Parts" : [
+  "File": "Documento.md",
+  "Parts": [
     "Partes/Capitulo1.md",
     "Partes/Antecedentes.md",
     "Partes/FormulacionYJustificacion.md",
-    "Partes/FormulacionDeObjetivos.md"
+    "Partes/FormulacionDeObjetivos.md",
+    "Partes/Capitulo2.md"
   ]
 }
