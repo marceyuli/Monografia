@@ -3,3 +3,12 @@
 ### Para compilar los nuevos cambios agregados en el documento:
    python script.py
 
+### Para referenciar bibliografía:
+   \parencite{pal2023generative}
+
+### Para agregar un salto de línea:
+   \newline
+
+### Para empezar en una nueva página:
+   \newpage
+
