@@ -24,7 +24,7 @@ La CD implica la automatización de los procesos de implementación y prueba den
 
 **Integración con la Integración Continua (CI).**
 
-La CD funciona en conjunto con la Integración Continua (CI). La CI se centra en automatizar la construcción y verificación del código antes de integrarlo en la línea principal. De esta forma, la CD garantiza que solo se implementen versiones estables y probadas en producción.
+La CD funciona en conjunto con la Integración Continua (CI). La CI se centra en automatizar la construcción y verificación del código antes de integrarlo en la línea principal. De esta forma, la CD garantiza que solo se implementen versiones estables y probadas en producción.\newline
 
 **La Sinergia CI/CD.**
 
