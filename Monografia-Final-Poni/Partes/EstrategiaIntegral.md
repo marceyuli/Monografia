@@ -105,7 +105,7 @@ Una vez identificadas, estas tareas se pueden automatizar utilizando herramienta
 
 **Implementación de Pipelines CI/CD.**
 
-Un pipeline CI/CD es una serie automatizada de pasos que integran las diferentes etapas del ciclo de desarrollo y entrega de software. Un ejemplo típico de un pipeline CI/CD podría incluir las siguientes etapas.
+Un pipeline CI/CD es una serie automatizada de pasos que integran las diferentes etapas del ciclo de desarrollo y entrega de software. Un ejemplo típico de un pipeline CI/CD podría incluir las siguientes etapas. Figura \ref{fig:cloud}
 
 - **Control de Versiones.** \newline
   Almacenamiento del código fuente en un repositorio centralizado como Git.
@@ -124,6 +124,7 @@ Un pipeline CI/CD es una serie automatizada de pasos que integran las diferentes
 \begin{center}
   \includegraphics[width=15cm]{Recursos/cloud.jpeg}
   \captionof{figure}{Implementación Genérica CI/CD.}
+  \label{fig:cloud}
 \end{center}
 ```
 
