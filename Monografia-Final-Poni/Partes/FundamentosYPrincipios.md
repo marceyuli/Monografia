@@ -38,11 +38,12 @@ La segunda vía, conocida como "Amplificar los bucles de retroalimentación" o "
 \end{center}
 ```
 \newpage
-La tercera vía, conocida como "Crear una cultura de aprendizaje continuo y experimentación", es esencial para establecer una cultura organizacional dinámica y confiable. Este enfoque fomenta la experimentación y la toma de riesgos de manera disciplinada y científica, permitiendo que el equipo aprenda de sus éxitos y fracasos. Al acortar y amplificar los ciclos de retroalimentación, se desarrollan sistemas de trabajo más seguros que facilitan la experimentación. Además, es fundamental contar con un plan de recuperación en caso de fallos, lo que contribuye al aprendizaje continuo y al avance de la innovación. (Figura 3)
+La tercera vía, conocida como "Crear una cultura de aprendizaje continuo y experimentación", es esencial para establecer una cultura organizacional dinámica y confiable. Este enfoque fomenta la experimentación y la toma de riesgos de manera disciplinada y científica, permitiendo que el equipo aprenda de sus éxitos y fracasos. Al acortar y amplificar los ciclos de retroalimentación, se desarrollan sistemas de trabajo más seguros que facilitan la experimentación. Además, es fundamental contar con un plan de recuperación en caso de fallos, lo que contribuye al aprendizaje continuo y al avance de la innovación. Figura \ref{fig:fig3}
 
 ```{=latex}
 \begin{center}
   \includegraphics[width=12cm]{Recursos/Imagen3.png}
   \captionof{figure}{The third Way: Culture of Continual Experimentation And Learning}
+  \label{fig:fig3}
 \end{center}
 ```
