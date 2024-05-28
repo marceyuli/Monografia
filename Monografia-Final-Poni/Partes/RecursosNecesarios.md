@@ -19,4 +19,4 @@
 - Inversión en herramientas y tecnologías necesarias para la implementación de DevOps.
 - Fondos para la contratación de personal adicional si es necesario. \newline
 
-En resumen, la propuesta de solución para fomentar una cultura DevOps y mejorar la implementación de CI/CD se basa en un enfoque integral que incluye liderazgo y patrocinio ejecutivo, formación y capacitación, cambio cultural, selección de herramientas adecuadas, automatización, medición y mejora continua, integración de seguridad y un plan de implementación estructurado. Con los recursos adecuados y un compromiso firme de la organización, esta estrategia puede llevar a una transformación exitosa hacia una cultura DevOps efectiva.  \newpage
+En resumen, la propuesta de solución se basa en un enfoque integral que incluye liderazgo y patrocinio ejecutivo, formación y capacitación, cambio cultural, selección de herramientas adecuadas, automatización, medición y mejora continua, integración de seguridad y un plan de implementación estructurado.  \newpage

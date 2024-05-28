@@ -8,21 +8,21 @@ El concepto de DevOps va más allá de ser simplemente una metodología o un fra
 
 DevOps se concibe como una práctica que busca transformar la forma en que se desarrollan, prueban e implementan las aplicaciones, integrando de manera fluida todas las funciones del ciclo de desarrollo de software. \newline
 
-Como señala Deshpande, DevOps se define como "una metodología de desarrollo de software que busca integrar todas las funciones del desarrollo de software, desde desarrollo hasta operaciones, en el mismo ciclo". Esta perspectiva es complementada por VersionOne, una agencia de desarrollo británica, que describe DevOps como "un mindset en IT que promueve la comunicación, colaboración, integración y automatización entre desarrolladores de software y operaciones IT, para mejorar la velocidad y calidad de la entrega de software". \newline
+Como señala Deshpande, DevOps se define como "una metodología de desarrollo de software que busca integrar todas las funciones del desarrollo de software, desde desarrollo hasta operaciones, en el mismo ciclo"\parencite{deshpande2016devops}. Esta perspectiva es complementada por VersionOne, una agencia de desarrollo británica, que describe DevOps como "un mindset en IT que promueve la comunicación, colaboración, integración y automatización entre desarrolladores de software y operaciones IT, para mejorar la velocidad y calidad de la entrega de software". \parencite{versionone2015}. \newline
 
-Además, autores como Gene Kim, Jez Humble, Patrick Debois y John Willis, en su libro "The DevOps Handbook", lo conceptualizan como "la práctica de las operaciones de desarrollo y TI donde los equipos de desarrollo, calidad, operaciones y seguridad se convierten en equipos multidisciplinarios, capaces de gestionar y entregar cambios rápidos, confiables y seguros en los sistemas". \newline
+Además, autores como Gene Kim, Jez Humble, Patrick Debois y John Willis, en su libro "The DevOps Handbook", lo conceptualizan como "la práctica de las operaciones de desarrollo y TI donde los equipos de desarrollo, calidad, operaciones y seguridad se convierten en equipos multidisciplinarios, capaces de gestionar y entregar cambios rápidos, confiables y seguros en los sistemas". \parencite{kim2016devops-handbook}. \newpage
 
 En resumen, DevOps representa un enfoque integral que busca integrar y optimizar el flujo de trabajo entre Desarrollo y Operaciones en los equipos de TI, fomentando una cultura de colaboración, comunicación y automatización para obtener resultados más rápidos y de mejor calidad.\newline
 
 ### Principios Básicos de DevOps.
 
-DevOps se fundamenta en una serie de principios básicos que guían su implementación y práctica. Estos principios, conocidos como "Las tres vías", fueron presentados en el libro "The Phoenix Project" y representan los fundamentos que subyacen a todos los comportamientos y patrones de DevOps. A continuación, se presentan estas tres vías, cada una de las cuales enfatiza aspectos clave para el éxito de DevOps. \newline
+DevOps se fundamenta en una serie de principios básicos que guían su implementación y práctica. Estos principios, conocidos como "Las tres vías", fueron presentados en el libro "The Phoenix Project" y representan los fundamentos que subyacen a todos los comportamientos y patrones de DevOps. A continuación, se presentan estas tres vías, cada una de las cuales enfatiza aspectos clave para el éxito de DevOps. \parencite{kim2013phoenix}.\newline
 
 La primera vía, conocida como "Pensamiento de flujo/sistemas" o "The First Way: Left to Right", enfatiza la importancia de un flujo de trabajo rápido y eficiente desde el desarrollo hasta las operaciones y, finalmente, hacia el cliente. Para maximizar este flujo, es esencial minimizar el trabajo en progreso (WIP) y enfocarse en completar tareas de manera secuencial. Además, cada departamento debe asegurarse de pasar el trabajo sin defectos conocidos y compartir el conocimiento con los demás departamentos para mantener una comprensión global del sistema. Este enfoque garantiza que no haya degradación global debido a optimizaciones locales y contribuye a una entrega continua de valor al cliente. Figura \ref{fig:fig1}
 
 ```{=latex}
 \begin{center}
-  \includegraphics[width=15cm]{Recursos/Imagen1.png}
+  \includegraphics[width=11cm]{Recursos/Imagen1.png}
   \captionof{figure}{The First Way: Flow/Systems Thinking.}
   \label{fig:fig1}
 \end{center}
@@ -32,7 +32,7 @@ La segunda vía, conocida como "Amplificar los bucles de retroalimentación" o "
 
 ```{=latex}
 \begin{center}
-  \includegraphics[width=12cm]{Recursos/Imagen2.png}
+  \includegraphics[width=11cm]{Recursos/Imagen2.png}
   \captionof{figure}{The Second Way: Amplify Feedback Loops}
   \label{fig:fig2}
 \end{center}
@@ -42,7 +42,7 @@ La tercera vía, conocida como "Crear una cultura de aprendizaje continuo y expe
 
 ```{=latex}
 \begin{center}
-  \includegraphics[width=12cm]{Recursos/Imagen3.png}
+  \includegraphics[width=11cm]{Recursos/Imagen3.png}
   \captionof{figure}{The third Way: Culture of Continual Experimentation And Learning}
   \label{fig:fig3}
 \end{center}

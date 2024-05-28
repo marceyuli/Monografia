@@ -53,7 +53,7 @@ Un equipo multidisciplinario compuesto por representantes de los equipos de desa
 
 - **Security and Compliance Engineer (SCE).**
   - **Función:** Garantizar la seguridad y cumplimiento normativo del producto y los procesos de desarrollo.
-  - **Habilidades:** Sólidos conocimientos de seguridad informática y normativas aplicables.
+  - **Habilidades:** Sólidos conocimientos de seguridad informática y normativas aplicables. \newpage
   - **Responsabilidades:**
     - Integrar la seguridad en el ciclo de desarrollo (DevSecOps).
     - Realizar auditorías de seguridad y cumplimiento normativo.
@@ -113,7 +113,7 @@ Un pipeline CI/CD es una serie automatizada de pasos que integran las diferentes
 - **Integración Continua (CI).**
   - Activación automática del pipeline al realizar cambios en el código fuente.
   - Ejecución de pruebas unitarias y de integración automáticas.
-  - Detección temprana de errores para garantizar la calidad del código.
+  - Detección temprana de errores para garantizar la calidad del código. \newpage
   
 - **Entrega Continua (CD).**
   - Empaquetado e implementación automatizada de la aplicación en entornos de prueba.

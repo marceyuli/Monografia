@@ -4,7 +4,7 @@ Exploramos a fondo los conceptos de Integración Continua y Entrega Continua, do
 
 ### Definición y Objetivos de CI/CD.
 
-En el mundo del desarrollo de software moderno, la Integración Continua (CI) y la Entrega Continua (CD) son dos prácticas fundamentales que funcionan en conjunto para garantizar la calidad y la entrega eficiente del software. \newline
+En el mundo del desarrollo de software moderno, la Integración Continua (CI) y la Entrega Continua (CD) son dos prácticas fundamentales que funcionan en conjunto para garantizar la calidad y la entrega eficiente del software. \newpage
 
 **Integración Continua (CI): Un Enfoque Proactivo para el Aseguramiento de la Calidad.**
 
@@ -19,7 +19,7 @@ Basándose en los cimientos de la CI, la Entrega Continua (CD) defiende el princ
 La CD implica la automatización de los procesos de implementación y prueba dentro de una tubería continua. Esta tubería define una serie de pasos que atraviesa el código desde su inicio hasta la implementación en producción.
 
 - **Compilación:** El código fuente se compila, generando un artefacto de compilación (por ejemplo, un ejecutable o un paquete de instalación).
-- **Pruebas:** El artefacto de compilación se somete a diversas pruebas automatizadas (unitarias, funcionales, de rendimiento, etc.) para garantizar su correcto funcionamiento y detectar posibles errores.
+- **Pruebas:** El artefacto de compilación se somete a diversas pruebas automatizadas (unitarias, funcionales, de rendimiento, etc.) para garantizar su correcto funcionamiento y detectar posibles errores. \newpage
 - **Implementación:** Una vez que las pruebas se superan con éxito, el artefacto se implementa automáticamente en entornos de prueba que simulan el entorno de producción. Una vez superadas las pruebas en estos entornos, la nueva versión del software se puede implementar en producción.\newline
 
 **Integración con la Integración Continua (CI).**
