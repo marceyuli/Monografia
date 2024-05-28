@@ -81,11 +81,11 @@ Fomentar una cultura DevOps exitosa trasciende la implementación de herramienta
 
 ### Selección de Herramientas Adecuadas para CI/CD.
 
-- **Evaluar y seleccionar herramientas de CI/CD:** Realizar una evaluación exhaustiva de las diferentes herramientas de CI/CD disponibles, considerando factores como la funcionalidad, la escalabilidad, la facilidad de uso y la integración con las tecnologías existentes.
+- **Evaluar y Seleccionar Herramientas de CI/CD:** Realizar una evaluación exhaustiva de las diferentes herramientas de CI/CD disponibles, considerando factores como la funcionalidad, la escalabilidad, la facilidad de uso y la integración con las tecnologías existentes.
 
-- **Adoptar una arquitectura de herramientas modular:** Implementar una arquitectura de herramientas modular que permita la integración de diferentes herramientas de manera flexible y escalable.
+- **Adoptar una Arquitectura de Herramientas Modular:** Implementar una arquitectura de herramientas modular que permita la integración de diferentes herramientas de manera flexible y escalable.
 
-- **Garantizar la seguridad y el cumplimiento:** Asegurar que las herramientas seleccionadas cumplan con los requisitos de seguridad y cumplimiento normativo de la organización.
+- **Garantizar la Seguridad y el Cumplimiento:** Asegurar que las herramientas seleccionadas cumplan con los requisitos de seguridad y cumplimiento normativo de la organización.
 
 ### Automatización: Implementación de Pipelines CI/CD.
 
@@ -136,6 +136,6 @@ La combinación de automatización y pipelines CI/CD permite a los equipos de De
 
 ### Medición y Mejora Continua. 
 
-- **Definir métricas clave:** Identificar y definir métricas clave para medir el éxito de la implementación de DevOps. Algunas métricas comunes incluyen el tiempo de ciclo (cycle time), la frecuencia de despliegue, el tiempo de recuperación de fallos y la tasa de fallos en producción.
-- **Monitoreo y análisis:** Implementar herramientas de monitoreo y análisis para recopilar datos sobre el rendimiento del sistema y los procesos DevOps. Utilizar estas herramientas para identificar áreas de mejora y tomar decisiones informadas.
-- **Retroalimentación continua:** Fomentar una cultura de retroalimentación continua, donde los equipos revisen regularmente las métricas y discutan posibles mejoras. Organizar retrospectives y reuniones de revisión para evaluar el progreso y ajustar las estrategias.
+- **Definir Métricas Clave:** Identificar y definir métricas clave para medir el éxito de la implementación de DevOps. Algunas métricas comunes incluyen el tiempo de ciclo (cycle time), la frecuencia de despliegue, el tiempo de recuperación de fallos y la tasa de fallos en producción.
+- **Monitoreo y Análisis:** Implementar herramientas de monitoreo y análisis para recopilar datos sobre el rendimiento del sistema y los procesos DevOps. Utilizar estas herramientas para identificar áreas de mejora y tomar decisiones informadas.
+- **Retroalimentación Continua:** Fomentar una cultura de retroalimentación continua, donde los equipos revisen regularmente las métricas y discutan posibles mejoras. Organizar retrospectives y reuniones de revisión para evaluar el progreso y ajustar las estrategias.
